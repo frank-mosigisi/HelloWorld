@@ -25,7 +25,7 @@ ul{
     color: #E5E7EB;
 }
 
-.logo{
+.logo, .ActionHeader{
     font-size: 24px;
     color: #f9FAF8;
 }
@@ -57,7 +57,7 @@ ul{
  width: 400px;
 }
 
-button{
+.button{
     background-color: #3882F6;
     padding: 10px 20px;
     color: white;
@@ -96,4 +96,49 @@ img {
 .text{
     width: 120px;
     /* word-break: break-all; */
+}
+
+.quoteSection{
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoteSayer{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.blueSection{
+    background-color: #3882F6;
+    /* padding: 20px 0px 20px 100px; */
+    padding: 20px 100px;
+    margin: 60px auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.buttontwo{
+    background-color: #3882F6;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+    border: white 2px solid;
+    margin-left: 80%;
+    margin-top: -10px;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #f9FAF8;
+    justify-content: center;
+    align-items: center;
 }
